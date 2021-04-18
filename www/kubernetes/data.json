@@ -1,0 +1,111 @@
+[
+  {
+    "desc": "List pods in the current namespace",
+    "cat": "kubectl pods",
+    "keywords": [
+      ""
+    ],
+    "shell": [
+      "kubectl get pods "
+    ],
+    "cmd": [],
+    "shortcut": []
+  },
+  {
+    "desc": "Get a pod YAML definition",
+    "cat": "kubectl pods",
+    "keywords": [
+      ""
+    ],
+    "shell": [
+      "kubectl get pod my-pod -o yaml "
+    ],
+    "cmd": [],
+    "shortcut": []
+  },
+  {
+    "desc": "List all pods in all namespaces",
+    "cat": "kubectl pods",
+    "keywords": [
+      ""
+    ],
+    "shell": [
+      "kubectl get pods --all-namespaces"
+    ],
+    "cmd": [],
+    "shortcut": []
+  },
+  {
+    "desc": "List all pods in the current namespace, with more details",
+    "cat": "kubectl pods",
+    "keywords": [
+      ""
+    ],
+    "shell": [
+      "kubectl get pods -o wide"
+    ],
+    "cmd": [],
+    "shortcut": []
+  },
+  {
+    "desc": "List pods Sorted by Restart Count",
+    "cat": "kubectl pods",
+    "keywords": [
+      ""
+    ],
+    "shell": [
+      "kubectl get pods --sort-by='.status.containerStatuses[0].restartCount'"
+    ],
+    "cmd": [],
+    "shortcut": []
+  },
+  {
+    "desc": "Dump pod logs",
+    "cat": "kubectl pods",
+    "keywords": [
+      ""
+    ],
+    "shell": [
+      "kubectl logs my-pod"
+    ],
+    "cmd": [],
+    "shortcut": []
+  },
+  {
+    "desc": "Tail pod logs",
+    "cat": "kubectl pods",
+    "keywords": [
+      ""
+    ],
+    "shell": [
+      "kubectl logs -f my-pod"
+    ],
+    "cmd": [],
+    "shortcut": []
+  },
+  {
+    "desc": "List services",
+    "cat": "kubectl services",
+    "keywords": [
+      ""
+    ],
+    "shell": [
+      "kubectl get services"
+    ],
+    "cmd": [],
+    "shortcut": []
+  },
+  {
+    "desc": "List Services Sorted by Name",
+    "cat": "kubectl services",
+    "keywords": [
+      ""
+    ],
+    "shell": [
+      "kubectl get services --sort-by=.metadata.name"
+    ],
+    "cmd": [],
+    "shortcut": []
+  }
+ 
+]
