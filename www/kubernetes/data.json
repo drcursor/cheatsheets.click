@@ -106,6 +106,41 @@
     ],
     "cmd": [],
     "shortcut": []
+  },
+  {
+    "desc": "Set alternative editor",
+    "cat": "Misc",
+    "keywords": [
+      ""
+    ],
+    "shell": [
+      "export KUBE_EDITOR=\"nano]\""
+    ],
+    "cmd": [],
+    "shortcut": []
+  },
+  {
+    "desc": "Enable auto-complete in bash",
+    "cat": "Misc",
+    "keywords": [
+      ""
+    ],
+    "shell": [
+      "source <(kubectl completion bash)"
+    ],
+    "cmd": [],
+    "shortcut": []
+  },
+  {
+    "desc": "Enable auto-complete in bash with short alias",
+    "cat": "Misc",
+    "keywords": [
+      ""
+    ],
+    "shell": [
+      "source <(kubectl completion bash); alias k=kubectl; complete -F __start_kubectl k"
+    ],
+    "cmd": [],
+    "shortcut": []
   }
- 
 ]

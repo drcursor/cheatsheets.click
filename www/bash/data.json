@@ -1,0 +1,27 @@
+[
+  {
+    "desc": "Fix last command",
+    "cat": "Misc",
+    "keywords": [
+      ""
+    ],
+    "shell": [
+      "fc"
+    ],
+    "cmd": [],
+    "shortcut": ["<span class=\"prefix\"><kbd>Ctrl</kbd> + <kbd>x</kbd> + <kbd>e</kbd>"]
+  },
+  {
+    "desc": "Start http server using python",
+    "cat": "Python",
+    "keywords": [
+      ""
+    ],
+    "shell": [
+      "python -m http.server 80",
+      "python -m SimpleHTTPServer 80"
+    ],
+    "cmd": [],
+    "shortcut": []
+  }
+]
